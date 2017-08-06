@@ -9,7 +9,7 @@ var PORT = process.env.PORT || 3000;
 
 //data parsing
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:truee}));
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json"}));
 
